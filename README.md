@@ -1,6 +1,6 @@
 # CO2W3 NFT
 
-NFT’s de bonos de carbón, principalmente para todos los interesados en disminuir la huella de CO2 del planeta bajo el “Protocolo de Kyoto” donde LA tiene el potencial para emitir muchos de estos bonos al mercando.
+NFT’s de bonos de carbón, principalmente para todos los interesados en disminuir la huella de CO2 del planeta bajo el “Protocolo de Kyoto” donde Latam tiene el potencial para emitir muchos de estos bonos al mercando.
 
 Creado con:
   * [Solidity](https://docs.soliditylang.org/en/v0.8.16/)
