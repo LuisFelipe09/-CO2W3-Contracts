@@ -6,7 +6,6 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
-import "@openzeppelin/contracts/utils/Strings.sol";
 import "./Base64.sol";
 
 contract CO2W3 is ERC721, ERC721URIStorage, ERC721Enumerable {
@@ -46,6 +45,9 @@ contract CO2W3 is ERC721, ERC721URIStorage, ERC721Enumerable {
         uint256 _maxSupply,
         string memory metadataURI
     ) public {
+        require(companyId != 0, "Is necesary an identificator of project");
+        require(_maxSupply != 0, "Is necesary an maxSupply for a new project");
+
         uint256 currentProject = _projectIdCounter.current();
 
         projectMaxSupply[currentProject] = _maxSupply;
