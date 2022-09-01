@@ -1,0 +1,34 @@
+{
+    "title": "Matavén Project ",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "CO2W3 - Matavén Project"
+        },
+        "description": {
+            "type": "string",
+            "description": "Represent a tonne less of CO2 into the atmosphere thanks to Matavén project for the owner of this NFT."
+        },
+        "project": {
+            "type": "string",
+            "description": "En el proyecto Matavén protegemos 1.150.212 hectáreas de bosques naturales en el Resguardo Indígena Unificado de la Selva de Matavén (RIU-SM) en Colombia - evitando así emitir a la atmósfera un promedio de 3.622.352 Toneladas de CO2 al año - mientras conservamos su biodiversidad y generamos beneficios educativos, sanitarios, de salud, seguridad alimentaria, nutrición, acceso a agua potable, entre otros impactos positivos para 15.932 indígenas que habitan el territorio."
+        },
+        "projectSite": {
+            "type": "string",
+            "description": "https://www.selvamatavenredd.org/es/proyecto/bonos-carbono"
+        },
+        "validYear": {
+            "type": "string",
+            "description": "2022"
+        },
+        "logo": {
+            "type": "string",
+            "description": "https://gateway.pinata.cloud/ipfs/QmZxKfSd4Gd1B7RmkAZQBaTB7PHmLwKfBc2TajJnKWK4j9"
+        },
+        "image": {
+            "type": "string",
+            "description": "https://gateway.pinata.cloud/ipfs/QmRvHYMEEW7WrAMa6cQLr5DwfAfMkVcc6u8NKJH7PK4Cbn"
+        }
+    }
+}
