@@ -1,0 +1,35 @@
+
+{
+    "title": "Ambio Project ",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "CO2W3 - Ambio Project"
+        },
+        "description": {
+            "type": "string",
+            "description": "Represent a ton less of CO2 into the atmosphere thanks to Ambio project for the owner of this NFT."
+        },
+        "project": {
+            "type": "string",
+            "description": "Cooperativa AMBIO La Cooperativa AMBIO promueve el desarrollo rural sostenible de manera integral y armónica en perspectivas de género, cultura y niveles socioeconómicos dentro de las comunidades en diversas áreas del sureste mexicano. "
+        },
+        "projectSite": {
+            "type": "string",
+            "description": "https://ambio.org.mx/nosotros/"
+        },
+        "validYear": {
+            "type": "string",
+            "description": "2022"
+        },
+        "logo": {
+            "type": "string",
+            "description": "https://gateway.pinata.cloud/ipfs/Qmc2e1MLJNzF6tbgyG1vK29riQwUnejTw58yEBVNaHCAFv"
+        },
+        "image": {
+            "type": "string",
+            "description": "https://gateway.pinata.cloud/ipfs/QmRvHYMEEW7WrAMa6cQLr5DwfAfMkVcc6u8NKJH7PK4Cbn"
+        }
+    }
+}
