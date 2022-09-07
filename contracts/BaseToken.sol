@@ -19,8 +19,11 @@ contract BaseToken is ERC1155 {
         }]
 
     */
+    // JSON_URL se recibe por parametro y se asigna al ERC1155
     constructor(uint256 totalSupply, address _address, string memory _JSON_URL) ERC1155(_JSON_URL) {
+        // Se mintean los tokens fungibles y se envian al address asignada, en este caso msg.sender
         _mint(_address, FT, totalSupply, "");
+        // Se mintea el NFT
         _mint(_address, NFT, 1, "");
     }
 }
